@@ -5,7 +5,11 @@
     <Grid>
         <Button Name="btnChooseFile" Content="Choose File" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="10,10,0,0" Click="btnChooseFile_Click"/>
         <Button Name="btnProcessFile" Content="Process File" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="120,10,0,0" Click="btnProcessFile_Click"/>
-        <TextBox Name="txtFileContents" HorizontalAlignment="Left" VerticalAlignment="Top" Width="480" Height="200" Margin="10,50,10,10" VerticalScrollBarVisibility="Auto" AcceptsReturn="True"/>
+        
         <Label Name="lblInstructions" Content="Click 'Choose File' to select a file" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="239,14,0,0"/>
+
+        <!-- New TextBox and Button -->
+        <TextBox Name="txtSignalNumber" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="30" Margin="10,260,0,0"/>
+        <Button Name="btnEnterSignalNumber" Content="Enter" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="220,260,0,0" Click="btnEnterSignalNumber_Click"/>
     </Grid>
 </Window>
